@@ -23,7 +23,7 @@ library(tidymodels)
     ## ✖ dplyr::filter()  masks stats::filter()
     ## ✖ dplyr::lag()     masks stats::lag()
     ## ✖ recipes::step()  masks stats::step()
-    ## • Learn how to get started at https://www.tidymodels.org/start/
+    ## • Use tidymodels_prefer() to resolve common conflicts.
 
 ``` r
 # Helper packages
@@ -250,7 +250,7 @@ lr_plot <-
 lr_plot 
 ```
 
-![](Predictive-Modeling_files/figure-gfm/tune%20model-1.png)<!-- -->
+![](README_files/figure-gfm/tune%20model-1.png)<!-- -->
 
 ``` r
 top_models <-
@@ -303,4 +303,4 @@ lr_auc <-
 autoplot(lr_auc)
 ```
 
-![](Predictive-Modeling_files/figure-gfm/tune%20model-2.png)<!-- -->
+![](README_files/figure-gfm/tune%20model-2.png)<!-- -->
