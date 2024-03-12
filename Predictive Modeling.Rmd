@@ -2,7 +2,7 @@
 title: "Predictive-modeling"
 author: "Tanishq Daniel"
 date: "2024-03-12"
-output: html_document
+output: github_document
 ---
 
 ```{r package and data}
